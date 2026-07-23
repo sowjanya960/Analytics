@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: DEV_TEST
+    schema: STAGING
+
+    tables:
+      - name: EMPLOYEES
