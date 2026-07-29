@@ -1,0 +1,12 @@
+--Set up completed
+--Materialization : Completed below all Materializations
+        - tables
+        - views
+        - incremental
+        - epheramel
+--Snapshots : Completed
+--Macros : Completed
+--Analyses : Completed
+--Orchestartion : Completed
+--Seeds : Pending
+--Tests : Pending
