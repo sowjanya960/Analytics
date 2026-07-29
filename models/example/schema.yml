@@ -8,14 +8,14 @@ sources:
       schema: DEV_SOURCE
       tables:
        - name: EMPLOYEES
-       - name: EMPLOYEES_1
-       - name: EMPLOYEES_3
+    #    - name: EMPLOYEES_1
+    #    - name: EMPLOYEES_3
 
-    - name: DIGITAL
-      database: DIGITAL
-      schema: DIGIT
-      tables:
-       - name: HTML
-       - name: CSS
-       - name: JAVA
+    # - name: DIGITAL
+    #   database: DIGITAL
+    #   schema: DIGIT
+    #   tables:
+    #    - name: HTML
+    #    - name: CSS
+    #    - name: JAVA
    
