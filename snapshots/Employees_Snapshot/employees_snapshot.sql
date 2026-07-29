@@ -13,4 +13,4 @@
 
 select * from {{source('ANALYTICS','EMPLOYEES')}}
 
-{% endsnapshot %}
+ { % endsnapshot % }
