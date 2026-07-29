@@ -5,7 +5,7 @@
     config 
     (
       unique_key ='emp_id',
-       strategy = 'timestamp',
+       strategy = 'timestamp',  
        updated_at = 'updated_at'
     )
 
