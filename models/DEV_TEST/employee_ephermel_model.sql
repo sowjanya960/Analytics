@@ -1,4 +1,4 @@
-{{config(materialized='ephemeral')}}
+{{config(materialized='ephemeral')}}  --CTE
 
   select 
   EMP_ID AS EMPLOYEE_ID,
@@ -8,3 +8,4 @@
   HIRE_DATE AS EMPLOYEE_HIRE_DATE
      from 
   {{source('ANALYTICS','EMPLOYEES')}}
+  where salary> 80000
