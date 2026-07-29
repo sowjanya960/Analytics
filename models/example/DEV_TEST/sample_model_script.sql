@@ -1,3 +1,0 @@
-SELECT
-    EMP_ID, EMP_NAME, DEPARTMENT, SALARY, HIRE_DATE
-FROM {{ source('staging', 'EMPLOYEES') }}
